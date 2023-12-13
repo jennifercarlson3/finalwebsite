@@ -1,0 +1,43 @@
+body{
+    background-image: url(https://www.umdchabad.org/new/wp-content/uploads/2018/08/1280x720-coral-pink-solid-color-background-768x432.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+img{
+    border: 2px solid black;
+    padding: 2px;
+    width: 50%;
+
+}
+.centerme{
+    display: block;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+ol{
+    color: black;
+}
+
+.footer{
+    z-index: 1;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: block;
+    text-align: center;
+    background-color: blue;
+    color: azure;
+}
+.header{
+    top: 0px;
+}
+.mainbody{
+    top: 400px;
+}

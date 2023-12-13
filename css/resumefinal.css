@@ -1,0 +1,47 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(6, 47, 47);
+    color: lightgoldenrodyellow;
+    background-image: url(https://t3.ftcdn.net/jpg/01/04/61/96/360_F_104619688_UP27I7cxkZKuNZn9GxCLCj0TztesAyMV.jpg);
+    
+}
+
+a {
+    color: aqua;
+}
+
+a:visited {
+    color: azure;
+}
+
+img {
+    display: block;
+    border: solid white 3px;
+    padding: 4px;
+    margin: auto;
+    /*centers imagine (with block display)*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+}
+
+h6 {
+    border: dashed white 1px;
+    text-align: center;
+}
+
+.riz {
+    font-family: 'Comic Sans', 'Chiller';
+    color: silver;
+    font-size: xx-large;
+    font-style: italic;
+    border: solid black 5px;
+    background-color: wheat;
+}
+
+.riz:hover {
+    text-decoration: line-through;
+    font-size: 300%;
+    background-color: black;
+    border: solid fuchsia 10 px;
+}
